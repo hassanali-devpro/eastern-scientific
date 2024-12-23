@@ -5,7 +5,7 @@ import ProductSection from "../../components/ProductSection";
 
 
 const index = () => {
-    const heroText = "Quality You Can Trust, Results You’ll Love.";
+    const heroText = "Tailored Solutions for Diverse Sectors";
     const heroImage = ["/bgindustries.png"]; 
     const name = "Industries we Serve";
     const text1 = "ESC plays a crucial role in supporting Pakistan’s agricultural economy with cutting-edge diagnostic solutions, analytical instruments, and microbiology media that ensure food safety and quality. Our solutions help farmers, food processors, and regulators comply with stringent local and international food safety standards.";

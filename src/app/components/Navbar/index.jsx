@@ -32,7 +32,7 @@ const Index = () => {
       </button>
 
       {/* Links and Search */}
-      <div className={`${isOpen ? 'block bg-black text-center' : 'hidden'} ${scrolled ? ' bg-white' : ' bg-opacity-20'} md:flex flex-col md:items-end gap-5 absolute md:static top-16 left-0 w-full md:w-auto  md:text-left z-40 p-4 md:p-0`}>
+      <div className={`${isOpen ? 'block bg-black text-center' : 'hidden'} ${scrolled ? ' bg-white' : ' md:bg-opacity-0 bg-opacity-20'} md:flex flex-col md:items-end gap-5 absolute md:static top-16 left-0 w-full md:w-auto  md:text-left z-40 p-4 md:p-0`}>
         {/* Search Input */}
         <div className={`w-full md:w-[80%] border-2 ${scrolled ? 'border-[#042182]' : 'border-white'} rounded-3xl mx-auto md:mx-0 flex`} >
           <input type="text" className={`bg-transparent mx-3 my-1 w-full text-${scrolled ? '[#042182]' : 'white'} focus-visible:outline-none placeholder:overflow-hidden placeholder:text-ellipsis placeholder:whitespace-nowrap`} placeholder="Search by keyword or Description" />

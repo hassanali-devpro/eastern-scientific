@@ -6,7 +6,7 @@ import Maps from "../../components/maps"
 
 
 const index = () => {
-    const heroText = "Contact Us We’re Just a Click Away.";
+    const heroText = "We’re Just a Click Away.";
     const heroImage = ["/contact.png"];
     
     const name = "Contact Us";

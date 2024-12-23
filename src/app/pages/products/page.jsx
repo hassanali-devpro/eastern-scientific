@@ -5,19 +5,20 @@ import ProductSection from "../../components/ProductSection";
 
 
 const index = () => {
-  const heroText = "Quality You Can Trust, Results You’ll Love.";
-  const heroImage = ["/bgproduct.png"];
+  const heroText = "Innovative Products for Every Sector";
+  const heroImage = ["/bgproduct.jpeg"];
   const name = "Products We Offer";
   const header = ""
 
   const TestKits = [
-    { img: '/pt1.png', title: 'BSCT', text: "Innovative solutions for diagnostics, enabling accurate and efficient healthcare, veterinary, and agri-food testing." },
-    { img: '/pt2.png', title: 'BT (EU)', text: "Advanced tools for precise diagnostics and reliable quality assurance in diverse laboratory settings." },
-    { img: '/pt3.png', title: 'Melamin', text: "Comprehensive diagnostic kits and lab supplies for ensuring safety and compliance in critical industries." },
-    { img: '/pt4.png', title: 'Aflatoxin M1', text: "Effective testing kits for detecting contaminants and ensuring product safety in food and beverage sectors." },
-    { img: '/pt5.jpg', title: 'Mycotoxin', text: "Specialized diagnostic kits designed to identify and mitigate risks of mycotoxin contamination." },
-    { img: '/pt6.jpg', title: 'Milk Antibiotic BT (EU)', text: "Reliable detection tools for identifying antibiotics in milk, ensuring food safety and quality." },
-    { img: '/pt8.jpg', title: 'Aflatoxin For Feed', text: "Targeted solutions for detecting aflatoxin in feed, safeguarding animal health and productivity." },
+    { img: '/pt1.png', title: 'BSCT', text: "Milk Antibiotic Residues Rapid Test Kit 4 in 1 BSCT" },
+    { img: '/pt2.png', title: 'BT (EU)', text: "Milk Antibiotic Residues Rapid Test Kit 2 in 1 BT (EU)." },
+    { img: '/pt3.png', title: 'Melamin', text: "Milk Rapid Test Kit Melamine Rapid Test." },
+    { img: '/pt4.png', title: 'Aflatoxin M1', text: "Milk Rapid Test Kit Aflatoxin M1 Rapid Test" },
+    { img: '/pt5.jpg', title: 'Mycotoxin', text: "Mycotoxin Residues Rapid Test Kit Aflatoxin B1 (AFB1) Quantitative Rapid Test Kit for Cereals and Feed" },
+    { img: '/pt6.jpg', title: 'Milk Antibiotic BT (EU)', text: "Milk Antibiotic Residues Rapid Test Kit 2 in 1 BT(EU)" },
+    { img: '/pt.jpg', title: 'Milk Antibiotic BT (EU)', text: "Milk Antibiotic Residues Rapid Test Kit 4 in 1 BSCT" },
+    { img: '/pt8.jpg', title: 'Aflatoxin For Feed', text: "Total Aflatoxin Rapid Test Kit for Cereals and Feed" },
   ];
   const Diagnostics = [
     { img: '/ai1.png', title: '', text: "" },
@@ -47,7 +48,7 @@ const index = () => {
         <h1 className="text-[#042182] text-center text-3xl font-semibold mt-20">{header}</h1>
         <ProductSection cardData={TestKits} header={header} heading="Testing Kits" text="" />
         <ProductSection cardData={Diagnostics} header={header} heading="Diagnostics Instruments" text="" />
-        <ProductSection cardData={Research} header={header} heading="Reader Instruments" text="" />
+        <ProductSection cardData={Research} header={header} heading="Readers" text="" />
         <ProductSection cardData={Microbiology} header={header} heading="Microbiology Media & Reagents" text="" />
       </div>
     </div>

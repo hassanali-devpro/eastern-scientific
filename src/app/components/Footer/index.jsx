@@ -69,7 +69,7 @@ const Index = () => {
         </div>
         <div className="flex md:justify-end">
           <h1 className="relative text-4xl font-semibold w-2/3">
-            Science For a Better Tomorrow <span className="text-sm absolute bottom-5">  (TM)</span>
+            Science For a Better Tomorrow<span className="text-sm absolute bottom-5 ml-2">(TM)</span>
           </h1>
         </div>
       </div>

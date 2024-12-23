@@ -5,7 +5,7 @@ import ProductSection from "../../components/ProductSection";
 
 
 const index = () => {
-    const heroText = "Quality You Can Trust, Results You’ll Love.";
+    const heroText = "Scientific Solutions to Meet Every Industry’s Needs";
     const heroImage = ["/bgservices.png"];
 
     const name = "Services We Offer";
