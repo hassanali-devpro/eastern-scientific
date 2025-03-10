@@ -21,7 +21,7 @@ const index = () => {
     return (
         <div>
             <Hero text={heroText} images={heroImage} />
-            <NameCard name={name} />
+            {/* <NameCard name={name} /> */}
             <div className="bg-[url('/bg-circle.png')] bg-left bg-cover">
             <ProductSection cardData={servicesData} heading="" text={text} />
             </div>

@@ -6,7 +6,7 @@ const Index = () => {
       <h1 className="text-4xl font-semibold py-10 text-[#042182]">Our Valued Customer</h1>
       <div className="flex flex-wrap gap-5 justify-center">
         <img src="/l1.png" alt="" className="w-60 h-auto object-contain" />
-        <img src="/l2.png" alt="" className="w-60 h-auto object-contain" />
+        <img src="/l2.png" alt="" className="w-36 h-auto object-contain" />
         <img src="/l3.png" alt="" className="w-60 h-auto object-contain" />
         <img src="/l4.png" alt="" className="w-60 h-auto object-contain" />
         <img src="/l5.png" alt="" className="w-60 h-auto object-contain" />

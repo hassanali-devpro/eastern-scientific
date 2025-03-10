@@ -7,7 +7,7 @@ import Maps from "../../components/maps"
 
 const index = () => {
     const heroText = "We’re Just a Click Away.";
-    const heroImage = ["/contact.png"];
+    const heroImage = ["/bgcontact.png"];
     
     const name = "Contact Us";
 
@@ -17,7 +17,7 @@ const index = () => {
     return (
         <div>
             <Hero text={heroText} images={heroImage} />
-            <NameCard name={name}/>
+            {/* <NameCard name={name}/> */}
             <ContactForm />
             <Maps />
         </div>

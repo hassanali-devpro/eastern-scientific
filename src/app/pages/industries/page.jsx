@@ -14,10 +14,10 @@ const index = () => {
     const text4 = "ESC offers healthcare providers rapid diagnostic solutions and testing instruments designed to improve public health outcomes. With a focus on point-of-care diagnostics, we help hospitals, clinics, and laboratories ensure timely and accurate diagnosis of diseases.";
     const text5 = "ESC is committed to fostering the next generation of scientists by providing research institutions and universities with the tools they need to succeed. Our instruments, lab supplies, and research solutions are tailored to support educational advancement and innovative research projects.";
     const servicesData1 = [
-        { img: '/ia1.png', title: 'Dairy', text: "Testing kits and instruments for ensuring quality and safety in milk production." },
+        { img: '/ia4.png', title: 'Dairy Processing', text: "Advanced solutions for dairy safety, including milk quality analysis, ice cream plants, and other dairy processing units." },
+        // { img: '/ia1.png', title: 'Dairy', text: "Testing kits and instruments for ensuring quality and safety in milk production." },
         { img: '/ia2.png', title: 'Beverages', text: "Testing kits and instruments for quality assurance in juice and soft drink production." },
         { img: '/ia3.png', title: 'Packaged Food', text: "Microbiology media and rapid diagnostics to ensure packaged foods meet safety standards." },
-        { img: '/ia4.png', title: 'Dairy Processing', text: "Advanced solutions for dairy safety, including milk quality analysis, ice cream plants, and other dairy processing units." },
         { img: '/ia5.png', title: 'Edible Oil & Ghee', text: "Quality control tools for oil extraction and ghee production." },
         { img: '/ia6.png', title: 'Bakery & Snacks', text: "Testing kits to ensure the safety of bakery products and snacks." },
     ];
@@ -38,10 +38,11 @@ const index = () => {
         { img: '/ih1.png', title: 'Public Health', text: "Point-of-care testing solutions for disease control and prevention." },
         { img: '/ih2.png', title: 'Clinical Diagnostics', text: "Instruments and reagents for routine testing in clinical labs." },
         { img: '/ih3.png', title: 'Research Labs', text: "Advanced instruments for medical and healthcare research institutions." },
+        { img: '/ih4.jpg', title: 'Pharmaceutical', text: "Cutting-edge tools for pharmaceutical research and development institutions." },
 
     ];
     const servicesData5 = [
-        { img: '/ie1.png', title: 'Universities', text: "Research-grade instruments and educational supplies." },
+        { img: '/ie1.png', title: 'Universities & Colleges', text: "Research-grade instruments and educational supplies." },
         { img: '/ie2.png', title: 'Research Institutes', text: "Custom research solutions and equipment for academic and industrial research projects." },
     ];
 
@@ -50,7 +51,7 @@ const index = () => {
     return (
         <div>
             <Hero text={heroText} images={heroImage} />
-            <NameCard name={name}/>
+            {/* <NameCard name={name}/> */}
             <div className="bg-[url('/bg-circle.png')] bg-left bg-cover">
             <ProductSection cardData={servicesData1} heading="Agri Food" text={text1} />
             <ProductSection cardData={servicesData2} heading="Veterinary Sector" text={text2} />

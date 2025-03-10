@@ -11,45 +11,62 @@ const index = () => {
   const header = ""
 
   const TestKits = [
-    { img: '/pt1.png', title: 'BSCT', text: "Milk Antibiotic Residues Rapid Test Kit 4 in 1 BSCT" },
-    { img: '/pt2.png', title: 'BT (EU)', text: "Milk Antibiotic Residues Rapid Test Kit 2 in 1 BT (EU)." },
-    { img: '/pt3.png', title: 'Melamin', text: "Milk Rapid Test Kit Melamine Rapid Test." },
-    { img: '/pt4.png', title: 'Aflatoxin M1', text: "Milk Rapid Test Kit Aflatoxin M1 Rapid Test" },
-    { img: '/pt5.jpg', title: 'Mycotoxin', text: "Mycotoxin Residues Rapid Test Kit Aflatoxin B1 (AFB1) Quantitative Rapid Test Kit for Cereals and Feed" },
-    { img: '/pt6.jpg', title: 'Milk Antibiotic BT (EU)', text: "Milk Antibiotic Residues Rapid Test Kit 2 in 1 BT(EU)" },
-    { img: '/pt.jpg', title: 'Milk Antibiotic BT (EU)', text: "Milk Antibiotic Residues Rapid Test Kit 4 in 1 BSCT" },
-    { img: '/pt8.jpg', title: 'Aflatoxin For Feed', text: "Total Aflatoxin Rapid Test Kit for Cereals and Feed" },
+    { img: '/pt1.png', title: 'Milk Antibiotic Residues', text: "Rapid Test Kit 4 in 1" },
+    { img: '/pt2.png', title: 'Milk Antibiotic Residues', text: "Rapid Test Kit 2 in 1" },
+    { img: '/pt3.png', title: 'Melamine', text: "Milk Rapid Test Kit" },
+    { img: '/pt4.png', title: 'Aflatoxin M1', text: "Milk Rapid Test Kit" },
+    { img: '/pt5.jpg', title: 'Aflatoxin For Feed', text: "Aflatoxin B1 Quantitative Rapid Test Kit for Cereals and Feed" },
+    { img: '/pt8.jpg', title: 'Aflatoxin For Feed', text: "Total Aflatoxin Qualitative Rapid Test Kit for Cereals and Feed" },
+    { img: '/pt6.jpg', title: 'Milk Antibiotic BT (EU)', text: "Milk Antibiotic Residues Rapid Test Kit 2 in 1" },
+    { img: '/pt7.jpg', title: 'Milk Antibiotic BT (EU)', text: "Milk Antibiotic Residues Rapid Test Kit 4 in 1" },
+    { img: '/pt8.png', title: 'Milk Adulteration Screening', text: "Milk Rapid Test Kit" },
+    { img: '/pt9.png', title: 'Mycotoxin for Feed', text: "Mycotoxin Rapid Test Kits for Cereals & Feed" },
+    { img: '/pt10.png', title: 'Aflatoxin For Feed', text: "Aflatoxin B1 Quantitative Rapid Test Kit for Cereals and Feed" },
+    { img: '/pt11.png', title: 'Food Test Kits', text: "All Range of Food and Beverages Rapid Test Kits" },
+    { img: '/pt12.png', title: 'Veterinary Test Kits', text: "All Range of Pets and Livestock Rapid Test Kits" },
   ];
-  const Diagnostics = [
-    { img: '/ai1.png', title: '', text: "" },
-    { img: '/ai2.png', title: '', text: "" },
-    { img: '/ai3.png', title: '', text: "" },
-    { img: '/ai4.png', title: '', text: "" },
+  const Reagents = [
+    { img: '/mr1.png', title: 'Microbiology Test Kits', text: "All Range of Food and Beverages Rapid Test Kits" },
+    { img: '/mr2.png', title: 'Culture Media', text: "" },
+    { img: '/mr3.png', title: 'Count Plates', text: "" },
+    { img: '/mr4.png', title: 'Contact Agar Medium', text: "" },
+    { img: '/mr5.png', title: 'Swab Sampler', text: "" },
+    { img: '/mr6.png', title: 'Liquid Chromogenic Culture Medium', text: "" },
+    { img: '/mr7.png', title: 'Sterile Sample Bag', text: "" },
+    { img: '/mr8.png', title: 'ATP & Hygiene Measurement', text: "" },
   ];
-  const Research = [
-    { img: '/di1.png', title: '', text: "" },
-    { img: '/di2.png', title: '', text: "" },
-    { img: '/di3.png', title: '', text: "" },
-    { img: '/di4.png', title: '', text: "" },
+  const Diagnostic = [
+    { img: '/d1.png', title: 'HEMATOLOGY ANALYZERS', text: "" },
+    { img: '/d2.png', title: 'CHEMISTRY ANALYZERS', text: "" },
+    { img: '/d3.png', title: 'ELISA READER', text: "" },
+    { img: '/d4.png', title: 'Blood Banking Instruments', text: "" },
+    { img: '/d5.png', title: 'Histopathology Equipment', text: "" },
+
   ];
-  const Microbiology = [
-    { img: '/m1.png', title: '', text: "" },
-    { img: '/m2.png', title: '', text: "" },
-    { img: '/m3.png', title: '', text: "" },
-    { img: '/m4.png', title: '', text: "" },
+  const Analytical = [
+    { img: '/a1.png', title: 'Spectroscopy', text: "" },
+    { img: '/a2.png', title: 'Chromatography Machine', text: "" },
+    { img: '/a3.png', title: 'Stereo Microscopy', text: "" },
+    { img: '/a4.png', title: 'Electrochemical Analyzer', text: "" },
+    { img: '/a5.png', title: 'Physical Property Analyzers', text: "" },
+    { img: '/a6.png', title: 'Electron Microscope', text: "" },
+    { img: '/a7.png', title: 'Moisture Analyzer', text: "" },
+    { img: '/a8.png', title: 'Analog Refractometer', text: "" },
+    { img: '/a9.png', title: 'Digital Refractometer', text: "" },
+    { img: '/a10.png', title: 'ph Meter', text: "" },
   ];
 
 
   return (
     <div>
-      <Hero text={heroText} images={heroImage} />
-      <NameCard name={name} />
+      {/* <Hero text={heroText} images={heroImage} /> */}
+      {/* <NameCard name={name} /> */}
       <div className="bg-[url('/bg-circle.png')] bg-left bg-cover">
         <h1 className="text-[#042182] text-center text-3xl font-semibold mt-20">{header}</h1>
         <ProductSection cardData={TestKits} header={header} heading="Testing Kits" text="" />
-        <ProductSection cardData={Diagnostics} header={header} heading="Diagnostics Instruments" text="" />
-        <ProductSection cardData={Research} header={header} heading="Readers" text="" />
-        <ProductSection cardData={Microbiology} header={header} heading="Microbiology Media & Reagents" text="" />
+        <ProductSection cardData={Reagents} header={header} heading="MICROBIOLOGY MEDIA AND REAGENTS" text="" />
+        <ProductSection cardData={Diagnostic} header={header} heading="Diagnostic Instruments" text="" />
+        <ProductSection cardData={Analytical} header={header} heading= "Analytical & Research Instruments" text="" />
       </div>
     </div>
   );

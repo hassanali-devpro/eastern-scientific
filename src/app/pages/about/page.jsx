@@ -16,7 +16,7 @@ const index = () => {
     return (
         <div>
             <Hero text={heroText} images={heroImage} />
-            <NameCard name={name}/>
+            {/* <NameCard name={name}/> */}
             <AboutCard />
             {/* <GlobalPartner /> */}
             <LocalPartner />

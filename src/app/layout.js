@@ -4,7 +4,7 @@ import Footer from "./components/Footer"
 import Chat from "./components/Chat";
 
 export const metadata = {
-  title: "Eastern Scientific",
+  title: "Eastern Scientific Corporation",
   description: "By Eastern Group of Companies",
 };
 

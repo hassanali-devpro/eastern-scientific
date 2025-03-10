@@ -2,6 +2,7 @@ import React from "react";
 import Hero from "../../components/Hero";
 import HomeCard from "../../components/HomeCard";
 import HomeSection from "../../components/HomeSection";
+import Testimonials from "../../components/Testimonials"
 import LocalPartner from "../../components/LocalPartner";
 import GlobalPartner from "../../components/GlobalPartner";
 
@@ -26,7 +27,7 @@ const index = () => {
   ];
   const productsData = [
     {
-      img: "/testkits.png",
+      img: "/pt2.png",
       title: "Testing Kits",
       text: "Providing precise and accurate testing kits for diagnostics across healthcare, veterinary, and agri-food sectors.",
     },
@@ -85,6 +86,7 @@ const index = () => {
         header="Our Services"
         cardData={servicesData}
       />
+      <Testimonials />
       <LocalPartner />
       <GlobalPartner />
     </div>
