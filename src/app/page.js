@@ -7,6 +7,7 @@ export default function Home() {
     <>
       <Head>
         <meta name="p:domain_verify" content="4125685236e36cf545aeb34725c9bca4" />
+        <meta name="google-site-verification" content="q8gAuLpoufW_6BCSoFfhHzatIE_LHs3NZQww567hKSs" />
       </Head>
 
       {/* Facebook Pixel */}

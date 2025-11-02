@@ -1,6 +1,6 @@
 
 
-const Vertical = ({ title, text, image, isEven }) => {
+const Vertical = ({ title, text, text1,text2, image, isEven }) => {
 
     return (
         <div className="bg-[url('/bg-circle.png')] bg-left bg-cover">
@@ -18,6 +18,8 @@ const Vertical = ({ title, text, image, isEven }) => {
                 <div className="md:w-1/2 mt-4 md:mt-0 text-center md:text-left">
                     <h2 className="text-2xl font-bold mb-4 text-gray-800">{title}</h2>
                     <p className="text-gray-600">{text}</p>
+                    <p className="text-gray-600">{text1}</p>
+                    <p className="text-gray-600">{text2}</p>
                 </div>
             </div>
         </div>

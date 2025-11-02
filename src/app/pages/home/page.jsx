@@ -27,7 +27,7 @@ const index = () => {
   ];
   const productsData = [
     {
-      img: "/pt2.png",
+      img: "/allkits.png",
       title: "Testing Kits",
       text: "Providing precise and accurate testing kits for diagnostics across healthcare, veterinary, and agri-food sectors.",
     },

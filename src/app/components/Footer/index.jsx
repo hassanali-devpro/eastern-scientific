@@ -13,7 +13,7 @@ const Index = () => {
           <a href="https://www.instagram.com/escientificpk" className="" target='blank'>
             <img src="/insta.png" alt="Instagram" width={28} height={28} />
           </a>
-          <a href="twitter.com/@easternscientificpk " className="" target='blank'>
+          <a href="https://x.com/escientificpk" className="" target='blank'>
             <img src="/x.png" alt="X (formerly Twitter)" width={28} height={28} />
           </a>
           <a href="https://www.linkedin.com/company/escientificpk" className="" target='blank'>
@@ -22,14 +22,17 @@ const Index = () => {
           <a href="https://www.youtube.com/@escientificpk" className="" target='blank'>
             <img src="/youtube.png" alt="YouTube" width={28} height={28} />
           </a>
+          <a href="https://www.tiktok.com/@escientificpk?lang=en" className="" target='blank'>
+            <img src="/tiktok.png" alt="Tiktok" width={28} height={28} />
+          </a>
         </div>
       </div>
       <div className="h-[2px] my-10 bg-white w-full"></div>
       <div className="flex flex-wrap justify-between items-center">
         <div className="flex flex-col items-start">
           <div className="flex flex-col items-start mt-3">
-            <h1 className="font-semibold">Head Office</h1>
-            <p className="">101 C/1, NFC-1, Lahore - 54000, Pakistan</p>
+            <h1 className="font-semibold">Headquarters:</h1>
+            <p className="">Eastern Tower, 73 R1, Johar Town, Lahore - Pakistan</p>
           </div>
           <div className="flex flex-col items-start mt-3">
             <h1 className="font-semibold">Email</h1>
@@ -52,13 +55,13 @@ const Index = () => {
       <div className="flex flex-wrap gap-5 justify-between">
         <div className="flex gap-5">
           <div className="flex flex-col gap-2">
-            <Link href="/pages/products">Testing Kits</Link>
-            <Link href="/pages/products">Microbiology Media & Reagents</Link>
-            <Link href="/pages/products">Consumables</Link>
+            <Link href="/">Home</Link>
+            <Link href="/pages/products">All Products</Link>
+            <Link href="/pages/industries">Verticals</Link>
           </div>
           <div className="flex flex-col gap-2">
-            <Link href="/pages/products">Analytical Instruments</Link>
-            <Link href="/pages/products">Diagnostic Instruments</Link>
+            <Link href="/pages/career">Join us</Link>
+            <Link href="/pages/news">Latest Updates</Link>
             <Link href="/pages/products">Research Instruments</Link>
           </div>
           <div className="flex flex-col gap-2">
