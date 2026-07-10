@@ -72,7 +72,7 @@ const Navbar = () => {
             {!isScrolled ? (
               <img src="/logow.png" className="w-44 " alt="Logo" />
             ) : (
-              <img src="/logon.png" className="w-56 h-14" alt="Logo" />
+              <img src="/logon.png" className="w-56" alt="Logo" />
             )}
           </Link>
           <button

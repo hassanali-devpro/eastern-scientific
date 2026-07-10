@@ -46,6 +46,18 @@ import e135 from "../assets/images/e135.jpg";
 import e141 from "../assets/images/e141.jpg";
 import e142 from "../assets/images/e142.jpg";
 import e143 from "../assets/images/e143.jpg";
+import e144 from "../assets/images/e144.jpg";
+import e145 from "../assets/images/e145.jpg";
+import e146 from "../assets/images/e146.jpg";
+import e147 from "../assets/images/e147.jpg";
+import e148 from "../assets/images/e148.jpg";
+import e149 from "../assets/images/e149.jpg";
+import e150 from "../assets/images/e150.jpg";
+import e151 from "../assets/images/e151.jpg";
+import e152 from "../assets/images/e152.jpg";
+import e153 from "../assets/images/e153.jpg";
+import e154 from "../assets/images/e154.jpg";
+
 
 const media = [
   e11, e12, e13, e21, e22, e31, e32, e33, e34,
@@ -53,7 +65,8 @@ const media = [
   e61, e62, e71, e72, e73, e74, e81, e82, e83,
   e91, e92, e93, e94, e95, e101, e102, e103, e104,
   e111, e112, e113, e121, e122, e131, e132, e133, e134, e135,
-  e141, e142, e143
+  e141, e142, e143 , e144, e145, e146, e147, e148, e149, e150,
+  e151, e152, e153, e154
 ];
 
 export default media;

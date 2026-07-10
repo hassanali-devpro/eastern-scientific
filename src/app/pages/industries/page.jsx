@@ -35,7 +35,7 @@ const index = () => {
         { img: '/id5.png', title: 'Consumer Goods & Energy', text: "Diagnostics for quality assurance in consumer product manufacturing and energy production." },
     ];
     const servicesData4 = [
-        { img: '/ih1.png', title: 'Public Health', text: "Point-of-care testing solutions for disease control and prevention." },
+        // { img: '/ih1.png', title: 'Public Health', text: "Point-of-care testing solutions for disease control and prevention." },
         { img: '/ih2.png', title: 'Clinical Diagnostics', text: "Instruments and reagents for routine testing in clinical labs." },
         { img: '/ih3.png', title: 'Research Labs', text: "Advanced instruments for medical and healthcare research institutions." },
         { img: '/ih4.jpg', title: 'Pharmaceutical', text: "Cutting-edge tools for pharmaceutical research and development institutions." },

@@ -36,7 +36,7 @@ const Index = () => {
           <input type="text" name="user_name" className="w-full rounded-full border-2 border-blue-800 py-1 px-3" placeholder="John David" required />
 
           <label className="w-full">Phone Number:</label>
-          <input type="text" name="user_phone" className="w-full rounded-full border-2 border-blue-800 py-1 px-3" placeholder="+1 234 567 89..." required />
+          <input type="text" name="user_phone" className="w-full rounded-full border-2 border-blue-800 py-1 px-3" placeholder="+92 234 567 89..." required />
 
           <label className="w-full">Email:</label>
           <input type="email" name="user_email" className="w-full rounded-full border-2 border-blue-800 py-1 px-3" placeholder="jhondavid@example.com" required />

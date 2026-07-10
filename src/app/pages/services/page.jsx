@@ -16,6 +16,7 @@ const index = () => {
         { img: '/caliberation.png', title: 'Calibration & Repair Services', text: "High-performance instruments for diagnostics, research, and quality assurance in labs across industries." },
         { img: '/researchS.png', title: ' Research Services', text: "ESC delivers diagnostic instruments, lab consumables, chemicals, and hygiene products to a wide array of industries, ensuring quality control and operational efficiency." },
         { img: '/s4.jpg', title: ' Technical Services', text: "We provide installation, preventive maintenance, application support, and gold-level service contracts for laboratory and scientific equipment." },
+        { img: '/commodity.jpeg', title: ' Commodity Procurement & Testing ', text: "Procurement, scientific inspection, testing, and quality control of grains and other commodities." },
     ];
 
     return (

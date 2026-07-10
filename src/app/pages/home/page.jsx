@@ -88,7 +88,7 @@ const index = () => {
       />
       <Testimonials />
       <LocalPartner />
-      <GlobalPartner />
+      {/* <GlobalPartner /> */}
     </div>
   );
 };

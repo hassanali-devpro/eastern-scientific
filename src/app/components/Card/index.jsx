@@ -3,36 +3,46 @@ import PropTypes from 'prop-types';
 
 const Card = React.memo(({ img, title, text }) => {
   return (
-    <div className="rounded-2xl shadow-xl overflow-hidden w-full flex flex-col bg-[#ADC8EB]">
-      <div className="w-full h-44 overflow-hidden">
+    <div className="rounded-2xl shadow-xl overflow-hidden w-full h-full flex flex-col bg-[#ADC8EB]">
+
+      {/* Image wrapper */}
+      <div className="w-full h-48 2xl:h-[15rem] overflow-hidden flex-shrink-0">
         <img
           src={img}
           alt={title || 'Card image'}
-          className="w-full hover:scale-110 transition-all duration-200"
+          className="w-full h-full object-cover object-top hover:scale-110 transition-all duration-200"
           loading="lazy"
         />
       </div>
-      <div className="p-5">
-        {title && <h1 className="text-[#042182] text-xl font-semibold">{title}</h1>}
-        {text && <p>{text}</p>}
+
+      <div className="p-5 flex flex-col flex-grow">
+        {title && (
+          <h1 className="text-[#042182] text-xl font-semibold mb-2">
+            {title}
+          </h1>
+        )}
+
+        {text && (
+          <p className="flex-grow">
+            {text}
+          </p>
+        )}
       </div>
     </div>
   );
 });
 
-// Set the displayName
 Card.displayName = 'Card';
 
 Card.propTypes = {
-  img: PropTypes.string.isRequired, // URL for the image is required
-  title: PropTypes.string, // Title can be optional
-  text: PropTypes.string, // Text can also be optional
+  img: PropTypes.string.isRequired,
+  title: PropTypes.string,
+  text: PropTypes.string,
 };
 
 Card.defaultProps = {
-  title: 'Default Title', // Default value for title
-  text: '', // Default empty string for text
+  title: 'Default Title',
+  text: '',
 };
 
 export default Card;
-

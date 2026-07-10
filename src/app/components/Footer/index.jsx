@@ -7,22 +7,22 @@ const Index = () => {
         <img src="/logo1.png" alt="Eastern Logo" width={100} height={100} className='mx-3'/>
         <p className="text-sm">© 2024 Eastern Scientific Corporation (PVT) LTD. All rights reserved.</p>
         <div className="flex gap-4 items-center">
-          <a href="https://www.facebook.com/escientificpk" target='blank' className="">
+          <a href="https://www.facebook.com/escientificcorp" target='blank' className="">
             <img src="/facebook.png" alt="Facebook" width={28} height={28} />
           </a>
-          <a href="https://www.instagram.com/escientificpk" className="" target='blank'>
+          <a href="https://www.instagram.com/escientificcorp" className="" target='blank'>
             <img src="/insta.png" alt="Instagram" width={28} height={28} />
           </a>
           <a href="https://x.com/escientificpk" className="" target='blank'>
             <img src="/x.png" alt="X (formerly Twitter)" width={28} height={28} />
           </a>
-          <a href="https://www.linkedin.com/company/escientificpk" className="" target='blank'>
+          <a href="https://www.linkedin.com/company/escientificcorp/" className="" target='blank'>
             <img src="/linkedin.png" alt="LinkedIn" width={28} height={28} />
           </a>
-          <a href="https://www.youtube.com/@escientificpk" className="" target='blank'>
+          <a href="https://www.youtube.com/@escientificcorp" className="" target='blank'>
             <img src="/youtube.png" alt="YouTube" width={28} height={28} />
           </a>
-          <a href="https://www.tiktok.com/@escientificpk?lang=en" className="" target='blank'>
+          <a href="https://www.tiktok.com/@escientificcorp?lang=en" className="" target='blank'>
             <img src="/tiktok.png" alt="Tiktok" width={28} height={28} />
           </a>
         </div>
@@ -31,8 +31,8 @@ const Index = () => {
       <div className="flex flex-wrap justify-between items-center">
         <div className="flex flex-col items-start">
           <div className="flex flex-col items-start mt-3">
-            <h1 className="font-semibold">Headquarters:</h1>
-            <p className="">Eastern Tower, 73 R1, Johar Town, Lahore - Pakistan</p>
+            <h1 className="font-semibold">HEAD OFFICE:</h1>
+            <p className="">101 C/1, NFC-1, Lahore - Pakistan</p>
           </div>
           <div className="flex flex-col items-start mt-3">
             <h1 className="font-semibold">Email</h1>

@@ -26,7 +26,7 @@ const index = () => {
     // { img: '/pt11.png', title: 'Food Test Kits', text: "All Range of Food and Beverages Rapid Test Kits" },
     // { img: '/pt12.png', title: 'Veterinary Test Kits', text: "All Range of Pets and Livestock Rapid Test Kits" },
     { img: '/pt00.png', title: 'Rapid Test Kits for Milk & Dairy Products Safety', },
-    { img: '/pt9.png', title: 'Human Healthcare Testing Kits', },
+    // { img: '/pt9.png', title: 'Human Healthcare Testing Kits', },
     { img: '/pt10.png', title: 'Feed Rapid Test Kits',},
     { img: '/pt11.png', title: 'Food & Beverages Rapid Test Kits', },
     { img: '/pt12.png', title: 'Pets & Livestock Rapid Test Kits',},
