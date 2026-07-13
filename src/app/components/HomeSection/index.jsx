@@ -1,18 +1,22 @@
-"use client"
-import React from 'react';
-import PropTypes from 'prop-types';
-import { motion } from 'framer-motion'; // Import Framer Motion
-import Card from '../Card';
-import ViewMore from '../ViewMore';
+"use client";
+
+import React from "react";
+import PropTypes from "prop-types";
+import { motion } from "framer-motion";
+import Card from "../Card";
+import ViewMore from "../ViewMore";
 
 const Index = React.memo(({ link, header, cardData }) => {
-  // Animation variants for cards
+  // Responsive heading
+  const heading =
+    "text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-semibold text-[#042182] leading-tight text-center";
+
+  // Animation variants
   const cardVariants = {
-    hidden: { opacity: 0, x: 50 }, // Start hidden and shifted to the right
-    visible: { opacity: 1, x: 0 }, // Animate to visible and original position
+    hidden: { opacity: 0, x: 50 },
+    visible: { opacity: 1, x: 0 },
   };
 
-  // Render function for cards
   const renderCards = () =>
     cardData.length > 0 ? (
       cardData.map((card, index) => (
@@ -21,10 +25,17 @@ const Index = React.memo(({ link, header, cardData }) => {
           variants={cardVariants}
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: true, amount: 0.2 }} // Trigger animation when 20% visible
-          transition={{ duration: 0.8, delay: index * 0.4 }} // Staggered animation
+          viewport={{ once: true, amount: 0.2 }}
+          transition={{
+            duration: 0.8,
+            delay: index * 0.4,
+          }}
         >
-          <Card img={card.img} title={card.title} text={card.text} />
+          <Card
+            img={card.img}
+            title={card.title}
+            text={card.text}
+          />
         </motion.div>
       ))
     ) : (
@@ -33,19 +44,23 @@ const Index = React.memo(({ link, header, cardData }) => {
 
   return (
     <div className="m-[3%] p-[5%] px-[8%] flex flex-col justify-center items-center bg-gradient-to-br from-[#BCD2F0] to-white rounded-3xl shadow-2xl">
-      {header && <h1 className="text-[#042182] text-3xl font-semibold">{header}</h1>}
-      <div className="grid md:grid-cols-3 sm:grid-cols-2 gap-10 py-10">
+      {header && (
+        <h1 className={`${heading} mb-8`}>
+          {header}
+        </h1>
+      )}
+
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 py-6 w-full">
         {renderCards()}
       </div>
+
       <ViewMore link={link} />
     </div>
   );
 });
 
-// Set the displayName for the memoized component
-Index.displayName = 'Index';
+Index.displayName = "Index";
 
-// Add PropTypes for validation
 Index.propTypes = {
   link: PropTypes.string.isRequired,
   header: PropTypes.string,
@@ -58,9 +73,8 @@ Index.propTypes = {
   ).isRequired,
 };
 
-// Default props
 Index.defaultProps = {
-  header: 'Default Header',
+  header: "Default Header",
 };
 
 export default Index;

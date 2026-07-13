@@ -39,7 +39,7 @@ const index = () => {
     {
       img: "/research.png",
       title: "Research Instruments",
-      text: "ESC delivers diagnostic instruments, lab consumables, chemicals, and hygiene products to a wide array of industries, ensuring quality control and operational efficiency.",
+      text: "Advanced laboratory instruments, analytical equipment, diagnostic systems, consumables and scientific solutions for research, education & laboratories, enabling accurate analysis and reliable results.",
     },
   ];
   const servicesData = [
@@ -56,7 +56,7 @@ const index = () => {
     {
       img: "/researchS.png",
       title: " Research Services",
-      text: "ESC delivers diagnostic instruments, lab consumables, chemicals, and hygiene products to a wide array of industries, ensuring quality control and operational efficiency.",
+      text: "Applied research, analytical testing, method development, validation, and scientific consultancy, helping industries and academia drive innovation, quality and informed decision-making.",
     },
   ];
   const heroImage = [

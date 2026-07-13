@@ -56,7 +56,7 @@ const index = () => {
             <ProductSection cardData={servicesData1} heading="Agri Food" text={text1} />
             <ProductSection cardData={servicesData2} heading="Veterinary Sector" text={text2} />
             <ProductSection cardData={servicesData3} heading="Diversified Industries" text={text3} />
-            <ProductSection cardData={servicesData4} heading="Healthcare Sector" text={text4} />
+            {/* <ProductSection cardData={servicesData4} heading="Healthcare Sector" text={text4} /> */}
             <ProductSection cardData={servicesData5} heading="Education & Research" text={text5} />
             </div>
         </div>

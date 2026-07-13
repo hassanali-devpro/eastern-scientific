@@ -32,12 +32,12 @@ const index = () => {
             {/* <NameCard name={name}/> */}
             <div className="container mx-auto px-6 pt-16 bg-[url('/bg-circle.png')] bg-left bg-cover">
                 <h2 className="text-4xl font-bold text-center mb-6 text-black">
-                    Join the Eastern Scientific CorporationTeam
+                    Join the Eastern Scientific Corporation Team
                 </h2>
                 <p className="text-center text-gray-700 text-lg max-w-3xl mx-auto pb-8">
                     We are always looking for passionate and talented individuals to join our team
                     of scientists, technicians, and industry experts. If you are committed to
-                    excellence and innovation in the testing industry, Eastern Scientific Corporationmay be
+                    excellence and innovation in the testing industry, Eastern Scientific Corporation may be
                     the perfect fit for you.
                 </p>
                 {/* <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">

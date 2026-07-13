@@ -109,7 +109,7 @@ const JobApplicationForm = () => {
           </div> */}
 
           {/* Position */}
-          <div>
+          {/* <div>
             <label htmlFor="position" className="block text-sm font-medium text-gray-700">Position</label>
             <select
               id="position"
@@ -123,7 +123,7 @@ const JobApplicationForm = () => {
               <option value="research_scientist">Research Scientist</option>
             </select>
             {errors.position && <p className="text-red-500 text-sm">{errors.position.message}</p>}
-          </div>
+          </div> */}
 
           {/* Last Qualification */}
           <div>

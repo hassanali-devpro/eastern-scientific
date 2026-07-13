@@ -35,7 +35,7 @@ const CardModal = ({ card, onClose }) => {
 
   return (
     <div className="fixed inset-0 z-50 bg-black/70 flex items-center justify-center p-2 sm:p-4">
-      <div className="relative bg-white rounded-2xl shadow-xl w-full max-w-5xl h-[95vh] md:h-[85vh] 2xl:h-[75vh] flex flex-col md:flex-row overflow-hidden">
+      <div className="relative bg-white rounded-2xl shadow-xl w-full max-w-5xl h-[95vh] md:h-[85vh] 2xl:h-[60vh] flex flex-col md:flex-row overflow-hidden">
         {/* Close Button */}
         <button
           onClick={onClose}
@@ -83,7 +83,7 @@ const CardModal = ({ card, onClose }) => {
         </div>
 
         {/* Content Section */}
-        <div className="w-full md:w-1/2 flex-1 overflow-y-auto p-5 md:p-6">
+        <div className="w-full md:w-1/2 flex-1 overflow-y-auto p-5 md:p-6 h-full flex flex-col justify-center">
           <h2 className="text-xl md:text-2xl font-bold mb-4">
             {card.title}
           </h2>
